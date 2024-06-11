@@ -1,5 +1,5 @@
 html, body {
-    background-color: Tan;
+    background-color: DarkSeaGreen;
     font-family: "Reddit Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -16,7 +16,8 @@ html, body {
     background-color: NavajoWhite;
     width: 75vh;
     height: 75vh;
-    border: 10px solid BurlyWood;
+    border: 10px solid DarkSalmon;
+    border-radius: 5%;
 }
 
 #money {
@@ -38,15 +39,16 @@ html, body {
 .bugs {
     position: relative;
     image-rendering: pixelated;
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(2px 5px 5px #222);
     opacity: 0.7;
     transition: 0.1s;
+    user-select: none;
 }
 
 .bugs:hover {
     opacity: 0.9;
-    transform: scale(1.1)
+    transform: scale(1.2)
 }
